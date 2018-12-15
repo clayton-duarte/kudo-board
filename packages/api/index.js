@@ -9,4 +9,7 @@ db.on(
   console.error.bind(console, 'MongoDB connection error:')
 );
 
-module.exports = cors(routes);
+module.exports = cors((req, res) => {
+  if (req.method === 'OPTIONS') return 'permited';
+  return routes(req, res);
+});

@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "lerna": "^3.5.1"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0"
   }
 }
