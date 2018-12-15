@@ -5,10 +5,10 @@ const { NODE_ENV } = process.env;
 const config = {
   env: NODE_ENV || 'development',
   development: {
-    endPoint: 'http://localhost:4000/',
+    card_api: 'http://localhost:4000/api/card',
   },
   production: {
-    endPoint: 'http://localhost:4000/',
+    card_api: 'http://localhost:4000/api/card',
   },
 };
 
