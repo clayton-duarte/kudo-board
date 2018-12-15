@@ -72,7 +72,7 @@ class Modal extends Component {
         <Fieldset>
           <Label>your name</Label>
           <Input 
-            placeholder="Luke"
+            placeholder="Vader"
             value={sender}
             onChange={e => this.setState({ sender: e.target.value })}
           />
@@ -88,7 +88,7 @@ class Modal extends Component {
         <Fieldset>
           <Label>your recipient</Label>
           <Input 
-            placeholder="Darth Vader"
+            placeholder="Luke"
             value={recipient}
             onChange={e => this.setState({ recipient: e.target.value })}
           />

@@ -64,8 +64,7 @@ class Home extends Component {
     this.getCards = () => {
       Axios.get(card_api)
         .then(({ data }) => {
-          const sortedList = data.sort((a, b) => b.hearts - a.hearts);
-          this.context.toContext({ cards: sortedList });
+          this.context.toContext({ cards: data });
         })
         .catch(err => {
           console.log(err);
