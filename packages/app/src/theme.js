@@ -8,7 +8,7 @@ const color = {
   primary: '#00528F',
   // GREYSCALE
   white: '#fefefe',
-  overlay: 'rgba(0, 0, 0, .15)',
+  overlay: 'rgba(0, 0, 0, .3)',
   lightGray: '#e5e5e5',
   gray: '#a9abae',
   darkGray: '#515151',
@@ -23,14 +23,14 @@ const shape = {
   radius: '.5rem',
   size: '16px',
   // SPACE
-  margin: '.25rem .125rem',
+  margin: '.25rem .25rem',
   padding: '.75rem .875rem',
   maxWidth: '1280px', // container size
 };
 
 const font = {
   // JUST ONE SET
-  family: '"Ubuntu", sans-serif',
+  family: "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif",
   color: color.black,
   // PROPORTIONAL TO LAYOUT FORMS
   size: shape.size,
