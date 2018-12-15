@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "start": "lerna run start",
+    "bootstrap": "lerna run bootstrap",
+    "deploy": "now && now alias"
+  },
+  "devDependencies": {
+    "lerna": "^3.5.1"
+  }
+}

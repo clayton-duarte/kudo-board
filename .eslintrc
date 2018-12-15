@@ -1,0 +1,22 @@
+{
+  "env": {
+    "es6": true
+  },
+  "extends": [
+    "eslint-config-airbnb"
+  ],
+  "rules": {
+    "react/destructuring-assignment": [0],
+    "react/jsx-filename-extension": [0],
+    "camelcase": [0]
+  },
+  "globals": {
+    "documment": true,
+    "shallow": true,
+    "render": true,
+    "window": true,
+    "expect": true,
+    "mount": true,
+    "it": true
+  }
+}

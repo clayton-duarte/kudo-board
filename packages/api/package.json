@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "clayton <flexgh.us@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro -p 4000",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "micro": "^9.3.3",
+    "micro-api": "^0.2.0",
+    "micro-cors": "^0.1.1",
+    "mongoose": "^5.4.0"
+  }
+}
