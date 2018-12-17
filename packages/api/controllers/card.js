@@ -14,6 +14,7 @@ module.exports = {
     return Card.findOneAndUpdate(params, body, { new: true });
   },
   create: ({ body }) => {
+    body.hearts = 1;
     return new Card(body).save();
   },
   delete: ({ params }) => {
