@@ -56,7 +56,7 @@ class Modal extends Component {
       e.preventDefault();
       await Axios.post(card_api, this.state)
         .then(() => {
-          this.context.toContext({ cards: '' });
+          this.context.toContext({ cards: '', modal: false });
         })
         .catch(err => {
           console.log(err);
